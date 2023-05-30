@@ -41,8 +41,22 @@ def SumNumbers(numbers):
         for num in numbers:
          total= num+total
         return total
-  
-arry_of_nums=(1,2,3,4,5)
+    
+arry_of_nums=(1,2,3,4,5,9,30)
 numSum=SumNumbers(arry_of_nums) 
 print(numSum) 
+
+# Write a function that takes 1 array of numbers and returns the sum of
+# all numbers in the array that are even numbers
+
+def sum_if_even(numbers):
+    total=0
+    while(total<len(numbers)):
+        for num in numbers:
+         if(num%2==0):
+           total= num+total
+        return total
+arry_of_numsEven=(1,2,3,4,5,9,12,16,20,24,30,)
+numSumEven=sum_if_even(arry_of_numsEven) 
+print(numSumEven) 
   
