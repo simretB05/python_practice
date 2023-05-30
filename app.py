@@ -33,5 +33,16 @@ def printNumbers(numbers):
   
 arry_of_nums=(1,2,3,4,5)
 numPrint=printNumbers(arry_of_nums)
-
-
+# Write a function that takes 1 array of numbers returns the sum of all
+# numbers in the array
+def SumNumbers(numbers):
+    total=0
+    while(total<len(numbers)):
+        for num in numbers:
+         total= num+total
+        return total
+  
+arry_of_nums=(1,2,3,4,5)
+numSum=SumNumbers(arry_of_nums) 
+print(numSum) 
+  
