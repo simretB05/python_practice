@@ -13,5 +13,15 @@ def largeNumber(num_one,num_two,num_three):
      return num_three
 largeNum= largeNumber(100,700,900)
 print(largeNum)
+# Write a function that takes 1 number and will return True if the
+# number is even and False otherwise
+
+def check_if_even(num):
+  if(num%2==0):
+   return True
+  else:
+    return False
+checkIfeven=check_if_even(41)
+print(checkIfeven)
 
 
